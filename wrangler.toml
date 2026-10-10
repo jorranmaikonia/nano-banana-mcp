@@ -1,0 +1,17 @@
+name = "nano-banana-mcp"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+DEFAULT_MODEL = "gemini-2.5-flash-image"
+
+# Opcional: links públicos das imagens por 30 dias.
+# 1) npx wrangler kv namespace create IMAGES
+# 2) descomente e cole o id retornado:
+# [[kv_namespaces]]
+# binding = "IMAGES"
+# id = "COLE_O_ID_AQUI"
+
+# Secrets (NÃO coloque aqui — configure no painel ou com o wrangler):
+#   npx wrangler secret put GEMINI_API_KEY
+#   npx wrangler secret put ACCESS_TOKEN

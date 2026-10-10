@@ -1,0 +1,14 @@
+{
+  "name": "nano-banana-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Conector MCP remoto para gerar imagens com o Nano Banana (Gemini) direto no Claude.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
